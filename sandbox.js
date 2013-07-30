@@ -5,14 +5,14 @@ var $TARGET_DIV = document.getElementById("target-div")
 
 /*
 a self explanatory function
-/
+*/
 function print(obj) {
   $TEXT_CONSOLE.value += obj;
 }
 
 /*
 a self explanatory function
-/
+*/
 function println(obj) {
 	print(obj + "\n");
 }
@@ -29,7 +29,7 @@ $EXECUTE_BUTTON.addEventListener("click", function(e) {
 
 /**
   * adds an element to a special div used for testing elements
-  /
+  */
 function addElement(element) {
 	$TARGET_DIV.appendChild(element);
 }
